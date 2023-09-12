@@ -54,6 +54,7 @@ a {
                 color:#404bbf;}
 .content-back {
 background: #2E2F42;
+padding: 188px 0;
 }
 .content {
     color: #FFF;
@@ -125,6 +126,9 @@ gap: 24px;
 }
 .section-team-three-back {
     background-color: #FFFFFF;
+    width: calc ((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px
+
 }
 .team-main{
     color: #2E2F42;
@@ -143,6 +147,7 @@ color: #2E2F42;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 .team-profession {
     color: #434455;
@@ -152,12 +157,15 @@ color: #2E2F42;
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
+.name-proffesion {
+    padding: 32px 0;
+}
 .portfolio-back{
     background-color: #FFFFFF;
 }
 .section-portfolio-three-back {
     background-color: #FFFFFF;
-width: calc((100% - 48px) / 3);
+width: calc ((100% - 48px) / 3);
 }
 .portfolio-title {
     text-align: center;
@@ -176,6 +184,11 @@ margin-bottom: 72px;
     flex-wrap: wrap;
     row-gap: 48px;
 }
+.list-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .portfolio-about {
     font-size: 20px;
         font-style: normal;
@@ -183,6 +196,7 @@ margin-bottom: 72px;
         line-height: 1.2;
         letter-spacing: 0.4px;
         color:#2e2f42;
+        margin-bottom: 8px;
 }
 .portfolio-value {
     color: #434455;
