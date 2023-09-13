@@ -36,6 +36,9 @@ a {
         display: flex;
         gap: 40px;
 }
+.link-box {
+    display: block;
+}
 .adresa {
     font-style: normal;
     margin-left: auto;
@@ -45,11 +48,12 @@ a {
     gap: 40px;
 }
 .contact{
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 1.5;
-                letter-spacing: 0.32px;
-            color:#434455;}
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color:#434455;
+}
             .contact:hover, .contact:focus {
                 color:#404bbf;}
 .content-back {
@@ -61,8 +65,10 @@ background: #2E2F42;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 1.12px;
-        text-align: center;
         max-width: 496px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
 }
 .button {
     color: #FFF;
@@ -177,7 +183,6 @@ margin-bottom: 72px;
 .portfolio-container {
     display: flex;
     gap: 24px;
-    margin-bottom: 48px;
     flex-wrap: wrap;
     row-gap: 48px;
 }
@@ -210,7 +215,6 @@ margin-bottom: 72px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         color: #4d5ae5;
-        margin-right: 76px
 }
 .site{
     font-weight: 500;
@@ -219,6 +223,7 @@ margin-bottom: 72px;
     letter-spacing: 0.02em;
     color:#2e2f42;
     padding: 24px 0;
+    margin-left: 76px;
 }
 .footer-back {
     background-color:#2e2f42;
@@ -232,7 +237,6 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.32px;
 background: #2E2F42;
-margin-top: 16px;
 width: 264px;
 }
 .link-selection:hover {
